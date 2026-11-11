@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>César Blanc — Applied AI & AI Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="min-h-screen bg-[#0a0a0c] text-zinc-200 antialiased selection:bg-emerald-500 selection:text-black">
+
+  <main class="mx-auto max-w-2xl px-6 py-20 md:py-28">
+
+    <!-- Header -->
+    <header>
+      <div class="flex items-center justify-between">
+        <div>
+          <h1 class="text-2xl font-bold tracking-tight text-white sm:text-3xl">
+            César Blanc
+          </h1>
+          <p class="mono mt-1 text-xs text-zinc-400">
+            Applied AI & AI Engineer
+          </p>
+        </div>
+      </div>
+
+      <!-- Social / Contact Links -->
+      <div class="mono mt-6 flex flex-wrap items-center gap-5 text-xs text-zinc-400">
+        <a href="https://linkedin.com/in/césar-blanc" target="_blank" rel="noopener" class="hover:text-white transition">
+          LinkedIn ↗
+        </a>
+        <a href="mailto:cesarblanc@orange.fr" class="hover:text-white transition">
+          Email ↗
+        </a>
+        <a href="https://github.com/Guy-tard" target="_blank" rel="noopener" class="hover:text-white transition">
+          GitHub ↗
+        </a>
+      </div>
+    </header>
+
+    <hr class="my-10 border-zinc-800/80" />
+
+    <!-- About Section -->
+    <section id="about">
+      <h2 class="mono text-xs font-semibold uppercase tracking-widest text-zinc-500">
+        About me
+      </h2>
+
+      <div class="mt-4 space-y-4 text-sm text-zinc-300 leading-relaxed">
+        <p>
+          I am a Computer Science &amp; AI graduate student passionate about artificial intelligence, processing complex datasets and creating models based on real-world use cases. I am currently looking for a job as a Data Scientist. Check out my <a href="https://linkedin.com/in/césar-blanc" target="_blank" rel="noopener" class="font-medium text-white underline decoration-emerald-500/60 decoration-2 underline-offset-4 transition hover:text-emerald-400 hover:decoration-emerald-400">LinkedIn</a> page with my resume for more information and my <a href="mailto:cesarblanc@orange.fr" class="font-medium text-white underline decoration-emerald-500/60 decoration-2 underline-offset-4 transition hover:text-emerald-400 hover:decoration-emerald-400">Email</a> if you want to contact me.
+        </p>
+      </div>
+    </section>
+
+    <hr class="my-12 border-zinc-800/80" />
+
+    <!-- Separated Projects List -->
+    <section id="projects">
+      <h2 class="mono text-xs font-semibold uppercase tracking-widest text-zinc-500">
+        Projects &amp; Technical Studies
+      </h2>
+
+      <div class="mt-6 flex flex-col gap-4">
+
+        <!-- Project 1: OR-Tools SLM Agent -->
+        <a href="/ortools-slm-agent/" class="group block rounded-xl border border-zinc-800/90 bg-zinc-900/30 p-5 transition duration-200 hover:-translate-y-0.5 hover:border-zinc-700 hover:bg-zinc-900/60">
+          <div class="flex items-baseline justify-between gap-4">
+            <h3 class="text-base font-semibold text-white group-hover:text-emerald-400 transition">
+              OR-Tools SLM Agent
+            </h3>
+            <span class="mono shrink-0 text-xs text-zinc-500 group-hover:text-zinc-300 transition">
+              2026
+            </span>
+          </div>
+          <p class="mt-2 text-sm text-zinc-400 leading-relaxed">
+            Distilling Google OR-Tools CP-SAT constraint programming into a local 3B language model via solver-verified rejection sampling and back-translation.
+          </p>
+          <div class="mono mt-4 flex flex-wrap gap-2 text-[11px] text-zinc-500">
+            <span class="rounded bg-zinc-800/70 px-2 py-0.5">Fine-tuning</span>
+            <span class="rounded bg-zinc-800/70 px-2 py-0.5">OR-Tools CP-SAT</span>
+            <span class="rounded bg-zinc-800/70 px-2 py-0.5">local LLM</span>
+            <span class="rounded bg-zinc-800/70 px-2 py-0.5">AMD ROCm</span>
+          </div>
+        </a>
+
+        <!-- Project 2 -->
+        <a href="/project-two/" class="group block rounded-xl border border-zinc-800/90 bg-zinc-900/30 p-5 transition duration-200 hover:-translate-y-0.5 hover:border-zinc-700 hover:bg-zinc-900/60">
+          <div class="flex items-baseline justify-between gap-4">
+            <h3 class="text-base font-semibold text-white group-hover:text-emerald-400 transition">
+              S.T.A.L.K.E.R. OP-2.2 RAG LLM
+            </h3>
+            <span class="mono shrink-0 text-xs text-zinc-500 group-hover:text-zinc-300 transition">
+              2026
+            </span>
+          </div>
+          <p class="mt-2 text-sm text-zinc-400 leading-relaxed">
+            End-to-end Retrieval-Augmented Generation architecture for querying private knowledge bases with semantic chunking, hybrid retrieval, and LLM generation.
+          </p>
+          <div class="mono mt-4 flex flex-wrap gap-2 text-[11px] text-zinc-500">
+            <span class="rounded bg-zinc-800/70 px-2 py-0.5">LangGraph</span>
+            <span class="rounded bg-zinc-800/70 px-2 py-0.5">OpenAI API</span>
+            <span class="rounded bg-zinc-800/70 px-2 py-0.5">FastAPI</span>
+            <span class="rounded bg-zinc-800/70 px-2 py-0.5">google cloud plateform</span>
+            <span class="rounded bg-zinc-800/70 px-2 py-0.5">PostgreSQL</span>
+            <span class="rounded bg-zinc-800/70 px-2 py-0.5">Qdrant</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <hr class="my-12 border-zinc-800/80" />
+
+    <!-- Publications Section -->
+    <section id="publications">
+      <h2 class="mono text-xs font-semibold uppercase tracking-widest text-zinc-500">
+        Publications
+      </h2>
+
+      <div class="mt-6 flex flex-col gap-4">
+        <div class="rounded-xl border border-zinc-800/90 bg-zinc-900/30 p-5">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <span class="mono text-xs text-emerald-400">Proceedings of the 16th International Workshop on Spoken Dialogue System Technology • 2026</span>
+            <span class="mono rounded bg-zinc-800/80 px-2 py-0.5 text-[11px] text-zinc-400">Research Internship</span>
+          </div>
+
+          <h3 class="mt-2 text-base font-semibold text-white leading-snug">
+            Predicting Turn-Taking in Child–Adult Conversations Using Voice Activity Projection
+          </h3>
+          pages 338–347
+          <p class="mt-1.5 text-xs text-zinc-400">
+            Youcef Brahimi, <strong class="font-semibold text-zinc-200 underline decoration-zinc-600 underline-offset-4">César Blanc</strong>, Abdellah Fourtassi
+          </p>
+
+          <p class="mt-3 text-sm text-zinc-400 leading-relaxed">
+            Benchmarked predictive Voice Activity Projection (VAP) and multimodal acoustic-lexical models against reactive baselines on large-scale dialogue corpora, demonstrating that children’s turn-taking relies on anticipatory acoustic mechanisms whereas adults additionally leverage lexical cues.
+          </p>
+
+          <div class="mono mt-4 flex items-center gap-4 text-xs">
+            <a href="https://https://aclanthology.org/2026.iwsds-1.34/" target="_blank" rel="noopener" class="text-zinc-400 hover:text-emerald-400 transition">
+              ACL Anthology ↗
+            </a>
+            <a href="https://aclanthology.org/2026.iwsds-1.34.pdf" target="_blank" rel="noopener" class="text-zinc-400 hover:text-emerald-400 transition">
+              PDF ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="my-12 border-zinc-800/80" />
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2 class="mono text-xs font-semibold uppercase tracking-widest text-zinc-500">
+        Education
+      </h2>
+
+      <div class="mt-6 space-y-6">
+
+        <!-- Degree 1 -->
+        <div class="flex flex-col justify-between gap-1 sm:flex-row sm:items-baseline">
+          <div>
+            <h3 class="text-sm font-semibold text-white">
+              Master’s Degree - Artificial Intelligence and Machine Learning
+            </h3>
+            <p class="mt-0.5 text-sm text-zinc-400">
+              Aix-Marseille University & Centrale Méditerranée (Graduate engineering college)
+            </p>
+          </div>
+          <span class="mono shrink-0 text-xs text-zinc-500">
+            2023 — 2025
+          </span>
+        </div>
+
+        <!-- Degree 2 -->
+        <div class="flex flex-col justify-between gap-1 sm:flex-row sm:items-baseline">
+          <div>
+            <h3 class="text-sm font-semibold text-white">
+              Bachelor’s Degree - Computer Science
+            </h3>
+            <p class="mt-0.5 text-sm text-zinc-400">
+              Aix-Marseille University
+            </p>
+          </div>
+          <span class="mono shrink-0 text-xs text-zinc-500">
+            2021 — 2023
+          </span>
+        </div>
+
+        <div class="flex flex-col justify-between gap-1 sm:flex-row sm:items-baseline">
+          <div>
+            <h3 class="text-sm font-semibold text-white">
+              University Diploma in Technology - Computer Science
+            </h3>
+            <p class="mt-0.5 text-sm text-zinc-400">
+              Aix-Marseille University
+            </p>
+          </div>
+          <span class="mono shrink-0 text-xs text-zinc-500">
+            2019 — 2021
+          </span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Minimal Footer -->
+    <footer class="mono mt-20 text-xs text-zinc-600">
+      © 2026 Taurus
+    </footer>
+
+  </main>
+
+</body>
+</html>
